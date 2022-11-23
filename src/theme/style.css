@@ -1,0 +1,91 @@
+
+@font-face {
+  font-family: CursedTimer;
+  src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+@font-face {
+  font-family: LcdSolid;
+  src: url("fonts/LcdSolid-VPzB.ttf");
+}
+
+@font-face {
+  font-family: TrenchThin;
+  src: url("fonts/TrenchThin-aZ1J.ttf");
+}
+
+*{font-family: TrenchThin; font-size: 20px; }
+header{
+	padding: 5px; background-color: #256D85;
+}
+
+footer{
+	background-color: #06283D; color: #fff; padding: 10px;
+}
+
+header a,footer a{text-decoration: none; color: yellow;}
+header a:hover,footer a:hover{text-decoration: underline; color: yellow;}
+
+nav{padding-top: 17px;}
+nav ul a{color: #fff; text-decoration: none;}
+nav ul a:hover{color: #06283D; text-decoration: underline;}
+nav ul li {display: inline; padding-right: 25px;}
+
+
+.head_nav_main{
+	padding: 3px; 
+	background-color: #06283D; color: #fff;
+}
+
+
+.social_media a{
+	color: #fff;
+	padding-right:10px; font-size: 27px;
+}
+
+
+
+
+.social_media_dark a{
+	color: #06283D;
+	padding-right:10px; font-size: 27px;
+}
+
+
+
+.random_welcome{padding: 10px; color: #fff;}
+
+#logo{width: 50px;}
+#site_name{padding-top: 10px; font-weight: bold; color: #fff;font-size: 20px;}
+
+.home-section1{
+	background-image: url("../images/home_bg.jpg"); background-repeat: no-repeat; background-size: cover;
+	background-position: 0px -150px;  position: relative; 
+	height: 500px;
+}
+
+
+.home-section1-content{
+	text-align: center;
+	color:#fff;
+	
+}
+
+.home-section1-content h2{
+	padding-top: 100px;
+	font-size: 50px;
+	
+}
+
+
+.home-section1-content p{
+	font-size: 35px;
+	font-family: LcdSolid;
+}
+.gallery{
+	display: grid;
+  grid-template-columns: auto auto auto;
+}
+.gallery div{height: 300px; width: 400px; margin: auto; padding: 20px;
+   background-size: cover  ; background-repeat: no-repeat; 
+}
